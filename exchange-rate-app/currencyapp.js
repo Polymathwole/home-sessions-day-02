@@ -3,7 +3,7 @@ const Agent = require('node-rest-client').Client;
 const app = new Agent();
 
 app.get("http://apilayer.net/api/live?access_key=420063ab159087dfcb8b38da4a9c5f5f&currencies=AED,BTC,CAD,CNY,EUR,GBP,JPY,NGN,SAR,SEK,ZAR",
-function (data, response)//function used to parse data 
+(data, response)=>//function used to parse data 
 {
     let utctime = data.timestamp;//time returned in the JSON response
     let quotes = data.quotes;//currencies returned in the JSON response
