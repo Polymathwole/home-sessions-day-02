@@ -1,0 +1,25 @@
+{
+  "name": "exchange-rate-app",
+  "version": "1.0.0",
+  "description": "An application that provides the exchange rates of select major global currencies against the Naira",
+  "main": "currencyapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymathwole/home-sessions-day-02.git"
+  },
+  "keywords": [
+    "NGN"
+  ],
+  "author": "Oluwaremi Oluwole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polymathwole/home-sessions-day-02/issues"
+  },
+  "homepage": "https://github.com/Polymathwole/home-sessions-day-02#readme",
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  }
+}
