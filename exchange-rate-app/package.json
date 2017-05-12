@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Polymathwole/home-sessions-day-02#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "node-rest-client": "^3.1.0"
   }
 }
